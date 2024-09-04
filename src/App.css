@@ -1,6 +1,104 @@
-body {
-    background-color: black;
-    color: white;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    text-align: center;
+    color: black;
+}
+
+/* Apply Handjet font to navbar */
+.navbar-center .nav-links li {
+    font-family: 'Handjet', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+/* Navbar links container */
+.navbar-center .nav-links {
+    list-style-type: none;
+    display: flex;
+    margin: 20px;
+    padding: 10px 10px;
+    background-color: rgba(22, 27, 73, 0.49);
+    border-radius: 50px;
+    outline: 2px solid white;
+}
+
+/* Navbar link styling */
+.navbar-center .nav-links li {
+    color: gray;
+    text-decoration: none;
+    padding: 10px 50px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+/* Navbar changes color after hover */
+.navbar-center .nav-links li:hover {
+    color: #f80101;
+    border-radius: 15px;
+    transition: .75s;
+}
+
+.main {
+    height: 100vh;
+    background-color: green;
+}
+
+.about {
+    height: 100vh;
+    background-color: red;
+}
+
+.projects {
+    height: 100vh;
+    background-color: blue;
+}
+
+.skills {
+    height: 100vh;
+    background-color: yellow;
+}
+
+.contact {
+    height: 100vh;
+    background-color: pink;
+}
+
+/* scroll to top button */
+.top-btn-position {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+}
+
+.top-btn-style {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+.top-btn-style:hover {
+    animation: none;
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #fff;
 }
