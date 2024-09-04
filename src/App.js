@@ -1,10 +1,12 @@
 import React, {useRef} from 'react'
 import ScrollToTop from "./components/ScrollToTop";
 import "./App.css"
+import "./components/social/social.css"
 import About from "./pages/about/about";
 import Projects from "./pages/projects/projects";
 import Skills from "./pages/skills/skills";
 import Contact from "./pages/contact/contact";
+import Social from "./components/social/social";
 
 function App() {
     const skills = useRef(null);
@@ -22,6 +24,7 @@ function App() {
   return (
     <div className="App">
         <ScrollToTop />
+        <Social />
         <div className="main">
             <nav className="navbar">
                 <div className="navbar-center">
