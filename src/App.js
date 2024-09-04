@@ -1,6 +1,10 @@
 import React, {useRef} from 'react'
 import ScrollToTop from "./components/ScrollToTop";
 import "./App.css"
+import About from "./pages/about/about";
+import Projects from "./pages/projects/projects";
+import Skills from "./pages/skills/skills";
+import Contact from "./pages/contact/contact";
 
 function App() {
     const skills = useRef(null);
@@ -40,15 +44,19 @@ function App() {
         </div>
         <div ref={about} className="about">
             <h3>About Me</h3>
+            <About />
         </div>
         <div ref={projects} className="projects">
             <h3>My Projects</h3>
+            <Projects />
         </div>
         <div ref={skills} className="skills">
             <h3>My Skills</h3>
+            <Skills />
         </div>
         <div ref={contact} className="contact">
             <h3>Contact Me</h3>
+            <Contact />
         </div>
     </div>
   );
