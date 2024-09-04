@@ -11,7 +11,6 @@
 
 /* Apply Handjet font to navbar */
 .navbar-center .nav-links li {
-    font-family: 'Handjet', cursive;
     font-size: 30px;
     font-weight: bold;
 }
