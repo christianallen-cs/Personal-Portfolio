@@ -49,19 +49,19 @@ function App() {
             </div>
         </div>
         <div ref={about} className="about">
-            <h3>About Me</h3>
+            <h1>About Me</h1>
             <About />
         </div>
         <div ref={projects} className="projects">
-            <h3>My Projects</h3>
+            <h1>My Projects</h1>
             <Projects />
         </div>
         <div ref={skills} className="skills">
-            <h3>My Skills</h3>
+            <h1>My Skills</h1>
             <Skills />
         </div>
         <div ref={contact} className="contact">
-            <h3>Contact Me</h3>
+            <h1>Contact Me</h1>
             <Contact />
         </div>
     </div>
