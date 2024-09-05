@@ -44,8 +44,14 @@ function App() {
                     </ul>
                 </div>
             </nav>
-            <div className="intro">
-                <h1>I am Christian Allen</h1>
+            <div className="intro-container">
+                <div className="intro-name">
+                    <h1>I am Christian Allen</h1>
+                </div>
+                <div className="intro-text">
+                    <h3>A recent Computer Science graduate with a passion for impactful tech. Eager to dive into
+                    my first full-time software engineering role and make a difference.</h3>
+                </div>
             </div>
         </div>
         <div ref={about} className="about">
