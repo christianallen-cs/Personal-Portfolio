@@ -1,12 +1,12 @@
 import React, {useRef} from 'react'
 import ScrollToTop from "./components/ScrollToTop";
-import "./App.css"
-import "./components/social/social.css"
 import About from "./pages/about/about";
 import Projects from "./pages/projects/projects";
 import Skills from "./pages/skills/skills";
 import Contact from "./pages/contact/contact";
 import Social from "./components/social/social";
+import "./App.css"
+import "./components/social/social.css"
 
 function App() {
     const skills = useRef(null);
@@ -28,7 +28,7 @@ function App() {
         <div className="main">
             <nav className="navbar">
                 <div className="navbar-center">
-                    <ul className = "nav-links">
+                    <ul className="nav-links">
                         <li onClick={() => scrollToSection(about)}>
                             About Me
                         </li>
@@ -44,6 +44,9 @@ function App() {
                     </ul>
                 </div>
             </nav>
+            <div className="intro">
+                <h1>I am Christian Allen</h1>
+            </div>
         </div>
         <div ref={about} className="about">
             <h3>About Me</h3>
