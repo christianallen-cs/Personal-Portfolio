@@ -8,18 +8,21 @@ const About = () => {
                 <img src="/resume.png" alt="resume" width={"700"} />
             </div>
             <div className="about-paragraph">
+                <h1>
+                    My Story
+                </h1>
                 <h2>
                     Thank you for taking the time to check out my personal website! I made this with React.js
                     and some good old typical CSS. I am a recent Computer Science graduate with an associate
                     degree in General Studies.
                 </h2>
                 <h2>
-                    From an early age, my father introduced me to the world of computers.
-                    And that sparked it all. As I grew up playing video games on the computer, I started to tinker
-                    with the various components of my PC to get more FPS and maximize my computer's performance! I
-                    started to learn about overclocking, undervolting, and even messing with the Windows registry
-                    to remove unnecessary Windows bloat. One thing led to another, and eventually, I graduated high
-                    school with no idea what I wanted to do in life... but what 18-year-old does Yano?
+                    From an early age, my father introduced me to the world of computer gaming and that sparked it all.
+                    As I grew up playing video games, I started to tinker with the various components of my PC to
+                    get more FPS and maximize my computer's performance. I started to learn about overclocking,
+                    undervolting, and even messing with the Windows registry to remove unnecessary Windows bloat. One
+                    thing led to another, and eventually, I graduated high school with no idea what I wanted to do
+                    in life.. but what 18-year-old does Yano?
                 </h2>
                 <h2>
                     I went to my local community college and worked on my Associate's Degree while taking various
