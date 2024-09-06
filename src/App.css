@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: black;
+    background-color: #525261;
 }
 
 .navbar {
@@ -33,8 +33,9 @@
     margin: 20px;
     padding: 10px 10px;
     border-radius: 50px;
-    outline: 2px solid #00ffff;
+    outline: 2px solid #000000;
     background-color: white;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.75);
 }
 
 .navbar-center .nav-links li {
@@ -48,12 +49,14 @@
     overflow: hidden;
     line-height: 1.5;
     cursor: pointer;
+    transition: color 0.5s ease, text-shadow 0.5s ease;
 }
 
 .navbar-center .nav-links li:hover {
-    color: gray;
+    color: #3a3a3a;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
-    transition: .75s;
+    transition: color 0.5s ease, text-shadow 0.5s ease;
 }
 
 .intro-container {
@@ -67,33 +70,21 @@
 }
 
 .intro-name {
-    font-size: 50px;
-    font-weight: bold;
+    font-size: 100px;
 }
 
-.intro-sentence {
-    font-size: 24px;
-    font-weight: normal;
+.intro-text {
+    font-size: 100px;
 }
 
 .about {
     height: 100vh;
-    background-color: black;
+    background-color: #525261;
 }
 
 .projects {
     height: 100vh;
-    background-color: black;
-}
-
-.skills {
-    height: 100vh;
-    background-color: black;
-}
-
-.contact {
-    height: 100vh;
-    background-color: black;
+    background-color: #525261;
 }
 
 /* scroll to top button */
