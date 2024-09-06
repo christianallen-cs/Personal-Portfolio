@@ -7,6 +7,7 @@ import Skills from "./pages/skills/skills";
 import "./App.css"
 import "./components/social/social.css"
 import "./pages/about/about.css"
+import "./pages/skills/skills.css"
 
 function App() {
     const projects = useRef(null);
@@ -29,13 +30,13 @@ function App() {
                 <div className="navbar-center">
                     <ul className="nav-links">
                         <li onClick={() => scrollToSection(about)}>
-                            About Me
-                        </li>
-                        <li onClick={() => scrollToSection(projects)}>
-                            My Projects
+                            About
                         </li>
                         <li onClick={() => scrollToSection(skills)}>
                             Skills
+                        </li>
+                        <li onClick={() => scrollToSection(projects)}>
+                            Projects
                         </li>
                     </ul>
                 </div>
@@ -50,15 +51,12 @@ function App() {
             </div>
         </div>
         <div ref={about} className="about">
-            <h1>About Me</h1>
             <About />
         </div>
         <div ref={skills} className="skills">
-            <h1>Skills</h1>
             <Skills />
         </div>
         <div ref={projects} className="projects">
-            <h1>My Projects</h1>
             <Projects />
         </div>
     </div>
