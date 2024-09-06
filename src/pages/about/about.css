@@ -1,0 +1,28 @@
+.about-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume-container {
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: left;
+}
+
+.about-paragraph {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-right: 50px;
+}
+
+.about-paragraph h2:nth-child(1) {
+    padding-bottom: 50px;
+}
+
+.about-paragraph h2:nth-child(2) {
+    padding-bottom: 50px;
+}
