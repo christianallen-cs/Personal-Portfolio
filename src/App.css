@@ -94,26 +94,31 @@
     background-color: #525261;
 }
 
-/* scroll to top button */
 .top-btn-position {
     position: fixed;
-    bottom: 15px;
-    right: 20px;
+    bottom: 10px;
+    left: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .top-btn-style {
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
-    border: 2px solid #333;
-    background-color: #fff;
-    color: #333;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
     cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.show-btn {
+    opacity: 1;
 }
 
 .top-btn-style:hover {
-    animation: none;
-    background-color: #333;
-    color: #fff;
-    border: 2px solid #fff;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
 }

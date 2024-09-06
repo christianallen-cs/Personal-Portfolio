@@ -5,13 +5,18 @@ const ScrollToTop = () => {
     const [showScrollTopButton, setShowScrollTopButton] = useState(false);
 
     useEffect(() => {
-        window.addEventListener("scroll", () => {
+        const handleScroll = () => {
             if (window.scrollY > 300) {
                 setShowScrollTopButton(true);
             } else {
                 setShowScrollTopButton(false);
             }
-        });
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        // Cleanup the event listener on component unmount
+        return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
     const scrollTop = () => {
@@ -20,14 +25,13 @@ const ScrollToTop = () => {
             behavior: "smooth",
         });
     };
+
     return (
         <div>
-            {showScrollTopButton && (
-                <FaAngleDoubleUp
-                    className="top-btn-position top-btn-style"
-                    onClick={scrollTop}
-                />
-            )}
+            <FaAngleDoubleUp
+                className={`top-btn-position top-btn-style ${showScrollTopButton ? 'show-btn' : ''}`}
+                onClick={scrollTop}
+            />
         </div>
     );
 };
