@@ -3,6 +3,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import About from "./pages/about/about";
 import Projects from "./pages/projects/projects";
 import Social from "./components/social/social";
+import Skills from "./pages/skills/skills";
 import "./App.css"
 import "./components/social/social.css"
 import "./pages/about/about.css"
@@ -10,6 +11,7 @@ import "./pages/about/about.css"
 function App() {
     const projects = useRef(null);
     const about = useRef(null);
+    const skills = useRef(null);
 
     const scrollToSection = (elementRef) => {
         window.scrollTo({
@@ -32,6 +34,9 @@ function App() {
                         <li onClick={() => scrollToSection(projects)}>
                             My Projects
                         </li>
+                        <li onClick={() => scrollToSection(skills)}>
+                            Skills
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -47,6 +52,10 @@ function App() {
         <div ref={about} className="about">
             <h1>About Me</h1>
             <About />
+        </div>
+        <div ref={skills} className="skills">
+            <h1>Skills</h1>
+            <Skills />
         </div>
         <div ref={projects} className="projects">
             <h1>My Projects</h1>
