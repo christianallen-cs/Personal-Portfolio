@@ -1,0 +1,90 @@
+.skills-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    gap: 60px;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.skills-category {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.skills-category h1 {
+    font-size: 70px;
+    text-align: left;
+}
+
+.skills-category h2 {
+    font-size: 40px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.tools-category {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.tools-category h2 {
+    font-size: 40px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.tools-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.floating-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, #d8d8d8, #efefef);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), inset 0 -5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: float 3s ease-in-out infinite;
+    cursor: pointer;
+}
+
+.icon {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+
+.floating-circle:hover {
+    box-shadow: 0 30px 40px rgba(0, 0, 0, 0.4);
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
