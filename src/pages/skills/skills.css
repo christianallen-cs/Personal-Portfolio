@@ -2,49 +2,38 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
-    gap: 60px;
     align-items: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    height: 100vh;
 }
 
-.skills-category {
+.skills-category, .tools-category {
     text-align: center;
-    margin-bottom: 70px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.skills-category h1, .skills-category h2, .tools-category h2 {
+    text-align: left;
+    margin: 0 auto;
 }
 
 .skills-category h1 {
-    font-size: 70px;
-    text-align: left;
+    font-size: 4rem;
 }
 
 .skills-category h2 {
-    font-size: 40px;
-    text-align: left;
-    margin-top: 20px;
-    margin-bottom: 60px;
-}
-
-.skills-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    justify-content: center;
-}
-
-.tools-category {
-    text-align: center;
-    margin-bottom: 70px;
+    font-size: 2rem;
+    padding-bottom: 40px;
+    padding-top: 10px;
 }
 
 .tools-category h2 {
-    font-size: 40px;
-    text-align: left;
-    margin-top: 20px;
-    margin-bottom: 60px;
+    font-size: 2rem;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 
-.tools-list {
+.skills-list, .tools-list {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
@@ -73,6 +62,6 @@
 
 .floating-circle:hover {
     box-shadow: 0 30px 40px rgba(0, 0, 0, 0.4), inset 0 -10px 15px rgba(0, 0, 0, 0.3);
-    transform: translateY(-30px);
+    transform: translateY(-20px);
     background: radial-gradient(circle at 30% 30%, #a0a0a0, #efefef);
 }
