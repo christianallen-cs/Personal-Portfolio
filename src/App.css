@@ -49,19 +49,24 @@ body, html {
     max-width: 100%;
 }
 
-.intro {
+.intro-page {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
-.intro h1 {
-    font-size: 100px;
+.intro-page h1 {
+    font-size: 10rem;
+    width: 100%;
+    max-width: 800px;
 }
 
-.intro h2 {
-    font-size: 24px;
+.intro-page h2 {
+    font-size: 2rem;
+    width: 100%;
+    max-width: 800px;
 }
 
 section {

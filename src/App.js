@@ -35,7 +35,7 @@ function App() {
                     <img src="/icons/spiderman.png" alt="Spiderman" className="spiderman"/>
                 </nav>
 
-                <section className="intro">
+                <section className="intro-page">
                     <h1>Hello</h1>
                     <h2>I'm Christian Allen</h2>
                 </section>
