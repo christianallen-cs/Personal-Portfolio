@@ -4,18 +4,6 @@
     justify-content: center;
 }
 
-.resume-container {
-    padding-top: 50px;
-    padding-left: 200px;
-    padding-right: 100px;
-    display: flex;
-    justify-content: left;
-}
-
-.resume-container img {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-}
-
 .about-paragraph {
     display: flex;
     flex-direction: column;
