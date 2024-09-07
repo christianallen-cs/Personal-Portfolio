@@ -21,46 +21,39 @@ function App() {
         });
     };
 
-  return (
-    <div className="App">
-        <ScrollToTop />
-        <Social />
-        <div className="main">
-            <nav className="navbar">
-                <div className="navbar-center">
+    return (
+        <div className="App">
+            <ScrollToTop />
+            <Social />
+            <main>
+                <nav className="navbar">
                     <ul className="nav-links">
-                        <li onClick={() => scrollToSection(about)}>
-                            About
-                        </li>
-                        <li onClick={() => scrollToSection(skills)}>
-                            Skills
-                        </li>
-                        <li onClick={() => scrollToSection(projects)}>
-                            Projects
-                        </li>
+                        <li onClick={() => scrollToSection(about)}>About</li>
+                        <li onClick={() => scrollToSection(skills)}>Skills</li>
+                        <li onClick={() => scrollToSection(projects)}>Projects</li>
                     </ul>
-                </div>
-            </nav>
-            <div className="intro-container">
-                <div className="intro-name">
+                    <img src="/icons/spiderman.png" alt="Spiderman" className="spiderman"/>
+                </nav>
+
+                <section className="intro">
                     <h1>Hello</h1>
-                </div>
-                <div className="intro-text">
-                    <h2>I am Christian Allen</h2>
-                </div>
-            </div>
+                    <h2>I'm Christian Allen</h2>
+                </section>
+
+                <section ref={about}>
+                    <About />
+                </section>
+
+                <section ref={skills}>
+                    <Skills />
+                </section>
+
+                <section ref={projects}>
+                    <Projects />
+                </section>
+            </main>
         </div>
-        <div ref={about} className="about">
-            <About />
-        </div>
-        <div ref={skills} className="skills">
-            <Skills />
-        </div>
-        <div ref={projects} className="projects">
-            <Projects />
-        </div>
-    </div>
-  );
+    );
 }
 
 export default App;
