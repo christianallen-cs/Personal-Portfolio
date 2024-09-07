@@ -30,6 +30,12 @@ const Social = () => {
                         <span>Email</span>
                     </a>
                 </li>
+                <li className="social-item">
+                    <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                        <i className="fas fa-file"></i>
+                        <span>Resume</span>
+                    </a>
+                </li>
             </ul>
         </nav>
     )
