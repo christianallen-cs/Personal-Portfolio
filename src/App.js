@@ -4,6 +4,7 @@ import About from "./pages/about/about";
 import Projects from "./pages/projects/projects";
 import Social from "./components/social/social";
 import Skills from "./pages/skills/skills";
+import ParticlesComponent from "./components/Particles";
 import "./App.css"
 import "./components/social/social.css"
 import "./pages/about/about.css"
@@ -23,6 +24,7 @@ function App() {
 
     return (
         <div className="App">
+            <ParticlesComponent id="particles"/>
             <ScrollToTop />
             <Social />
             <main>
