@@ -34,7 +34,6 @@ function App() {
                         <li onClick={() => scrollToSection(skills)}>Skills</li>
                         <li onClick={() => scrollToSection(projects)}>Projects</li>
                     </ul>
-                    <img src="/icons/spiderman.png" alt="Spiderman" className="spiderman"/>
                 </nav>
 
                 <section className="intro-page">
