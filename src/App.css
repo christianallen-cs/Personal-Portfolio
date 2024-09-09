@@ -31,7 +31,6 @@ body, html {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     position: relative;
     font-family: "starjedi", serif;
 }
@@ -51,11 +50,13 @@ body, html {
     letter-spacing: 2px;
     cursor: pointer;
     padding: 0 50px;
-    transition: color 0.3s ease;
+    transition: 0.3s ease-in-out;
 }
 
 .nav-links li:hover {
-    color: #7c7c7c;
+    text-shadow: 0 0 10px #F7E6A5;
+    transition: 0.3s ease-in-out;
+
 }
 
 .intro-page {
