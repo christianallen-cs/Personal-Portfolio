@@ -5,15 +5,15 @@ const About = () => {
     return (
         <div className="about-page">
             <h1>
-                my story
+                my Story
             </h1>
             <h2>
-                thank you for taking the time to check out my personal website! i made this with react.js
+                Thank you for taking the time to check out my personal website! i made this with react.js
                 and some good old typical css. i am a recent computer science graduate who also holds an associate
                 degree in general studies.
             </h2>
             <h2>
-                from an early age, i was introduced to the world of computer gaming and that sparked it all.
+                From an early age, i was introduced to the world of computer gaming and that sparked it all.
                 as i grew up playing video games, i started to tinker with the various components of my pc to
                 get more fps and maximize my computer's performance. i started to learn about overclocking,
                 undervolting, and even messing with the windows registry to remove unnecessary windows bloat. one
