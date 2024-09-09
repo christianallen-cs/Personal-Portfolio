@@ -33,6 +33,7 @@ body, html {
     padding: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     position: relative;
+    font-family: "starjedi", serif;
 }
 
 .nav-links {
