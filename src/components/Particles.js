@@ -23,28 +23,32 @@ const ParticlesComponent = (props) => {
         () => ({
             background: {
                 color: {
-                    value: "#1E2F97",
+                    value: "#000000",
                 },
             },
             fpsLimit: 120,
             interactivity: {
                 events: {
                     onClick: {
-                        enable: true,
+                        enable: false,
                         mode: "repulse",
                     },
                     onHover: {
-                        enable: true,
+                        enable: false,
                         mode: 'grab',
                     },
                 },
                 modes: {
-                    push: {
+                    bubble: {
                         distance: 200,
-                        duration: 15,
+                        duration: 2,
+                        opacity: 0,
+                        size: 0,
+                        speed: 3
                     },
-                    grab: {
-                        distance: 150,
+                    repulse: {
+                        distance: 400,
+                        duration: 0.4
                     },
                 },
             },
@@ -52,42 +56,34 @@ const ParticlesComponent = (props) => {
                 color: {
                     value: "#FFFFFF",
                 },
-                links: {
-                    color: "#FFFFFF",
-                    distance: 150,
-                    enable: true,
-                    opacity: 0.3,
-                    width: 1,
-                },
                 move: {
                     direction: "none",
                     enable: true,
-                    outModes: {
-                        default: "bounce",
-                    },
+                    outModes: "out",
                     random: true,
-                    speed: 1,
-                    straight: false,
+                    speed: 0.3
                 },
                 number: {
                     density: {
                         enable: true,
                     },
-                    value: 150,
+                    value: 600
                 },
                 opacity: {
-                    value: 1.0,
+                    animation: {
+                        enable: true,
+                        speed: 5
+                    },
+                    value: { min: 0.3, max: 0.6 }
                 },
                 shape: {
-                    type: "circle",
+                    type: "circle"
                 },
                 size: {
-                    value: { min: 1, max: 3 },
+                    value: 1
                 },
             },
-            detectRetina: true,
         }),
-        [],
     );
 
 
