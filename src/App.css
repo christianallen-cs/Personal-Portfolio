@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "starjedi";
+    src: local("Starjedi"), url("./components/fonts/Starjedi.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "starjhol";
+    src: local("Starjhol"), url("./components/fonts/Starjhol.ttf") format("truetype");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -35,7 +45,7 @@ body, html {
 }
 
 .nav-links li {
-    color: #ffffff;
+    color: #F7E6A5;
     font-size: 24px;
     letter-spacing: 2px;
     cursor: pointer;
@@ -49,6 +59,7 @@ body, html {
 
 .intro-page {
     color: #F7E6A5;
+    font-family: "starjhol", serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,14 +69,11 @@ body, html {
 
 .intro-page h1 {
     font-size: 10rem;
-    width: 100%;
-    max-width: 800px;
 }
 
 .intro-page h2 {
     font-size: 2rem;
-    width: 100%;
-    max-width: 800px;
+    letter-spacing: .2rem;
 }
 
 section {

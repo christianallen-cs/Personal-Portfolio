@@ -9,6 +9,8 @@ import "./App.css"
 import "./components/social/social.css"
 import "./pages/about/about.css"
 import "./pages/skills/skills.css"
+import "./components/fonts/Starjedi.ttf"
+import "./components/fonts/Starjhol.ttf";
 
 function App() {
     const projects = useRef(null);
@@ -37,8 +39,8 @@ function App() {
                 </nav>
 
                 <section className="intro-page">
-                    <h1>Hello</h1>
-                    <h2>I'm Christian Allen</h2>
+                    <h1>hello</h1>
+                    <h2>i'm christian allen</h2>
                 </section>
 
                 <section ref={about}>

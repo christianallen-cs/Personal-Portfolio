@@ -14,22 +14,27 @@
 }
 
 .skills-category h1, .skills-category h2, .tools-category h2 {
-    text-align: left;
+    text-align: center;
     margin: 0 auto;
 }
 
 .skills-category h1 {
     font-size: 4rem;
+    font-family: starjhol, serif;
 }
 
 .skills-category h2 {
     font-size: 2rem;
+    font-family: starjedi, serif;
+    letter-spacing: .1rem;
     padding-bottom: 40px;
     padding-top: 10px;
 }
 
 .tools-category h2 {
     font-size: 2rem;
+    font-family: starjedi, serif;
+    letter-spacing: .1rem;
     padding-bottom: 40px;
     padding-top: 40px;
 }

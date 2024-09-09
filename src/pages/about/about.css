@@ -10,18 +10,20 @@
 
 .about-page h1,
 .about-page h2 {
-    text-align: left;
+    text-align: center;
     max-width: 800px;
-    width: 100%;
 }
 
 h1 {
     font-size: 4rem;
     margin-bottom: 1rem;
+    font-family: starjhol, serif;
 }
 
 h2 {
     font-size: 1.2rem;
     line-height: 1.6;
     margin-bottom: 1rem;
+    font-family: starjedi, serif;
+    letter-spacing: .1rem;
 }

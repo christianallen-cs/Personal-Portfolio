@@ -27,8 +27,8 @@ const Skills = () => {
     return (
         <div className="skills-page">
             <div className="skills-category">
-                <h1>My Skills</h1>
-                <h2>Coding Languages</h2>
+                <h1>my skills</h1>
+                <h2>coding languages</h2>
                 <div className="skills-list">
                     {languages.map(skill => (
                         <div key={skill.id} className="floating-circle">
@@ -38,7 +38,7 @@ const Skills = () => {
                 </div>
             </div>
             <div className="tools-category">
-                <h2>Technologies and Frameworks</h2>
+                <h2>technologies and frameworks</h2>
                 <div className="tools-list">
                     {tools.map(skill => (
                         <div key={skill.id} className="floating-circle">
