@@ -30,7 +30,6 @@ body, html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
     position: relative;
     font-family: "starjedi", serif;
 }
