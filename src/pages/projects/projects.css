@@ -63,6 +63,7 @@
     height: 150px;
     width: 630px;
     object-fit: cover;
+    margin-bottom: -10px;
 }
 
 .card-body {
@@ -73,11 +74,13 @@
 .card-body .card-title {
     font-size: 1.1rem;
     margin-bottom: 10px;
+    letter-spacing: 1px;
 }
 
 .card-body .card-text {
     font-size: .75rem;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
     letter-spacing: 1px;
 }
 
