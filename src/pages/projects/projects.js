@@ -8,24 +8,28 @@ import "./projects.css"
 const projectData = [
     {
         id: 1,
+        image: './screenshots/ai.jpg',
         title: 'Ai Pathfinder',
         description: 'A group of sophisticated Ai pathfinding algorithms using Scala and javaScript to enhance enemy movement precision. optimized player location retrieval and path computations, enabling smooth, efficient Ai navigation without diagonal movements.',
         link: 'https://github.com/christianallen-cs/Enemy-AI'
     },
     {
         id: 2,
+        image: './screenshots/music-rainbow.jpg',
         title: 'Genetic Algorithm',
         description: 'Advanced statistical methods and a Bayesian average algorithm using scala, addressing biases in user ratings. Designed functions for processing song data from CSv files, calculating cost functions, and refining playlist recommendations.',
         link: 'https://github.com/christianallen-cs/Genetic-Algorithm'
     },
     {
         id: 3,
+        image: './screenshots/route.jpg',
         title: 'SmartRoute System',
         description: 'A nearest neighbor algorithm to reduce package delivery and truck mileage by 30 percent. implemented a custom hash table for real-time package tracking and created an intuitive ui for streamlined delivery monitoring and truck status.',
         link: 'https://github.com/christianallen-cs/Smart-Route'
     },
     {
         id: 4,
+        image: './screenshots/movie.jpg',
         title: 'Movie Matcher',
         description: 'Python-based movie recommendation system using cosine similarity to match user ratings with films. Processed a vast dataset of over 50,000 movies and 100,000 ratings, delivering top recommendations through a user-friendly interface.',
         link: 'https://github.com/christianallen-cs/WGU-Capstone'
