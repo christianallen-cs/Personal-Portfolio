@@ -96,9 +96,7 @@ section {
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    border: 2px solid black;
-    background-color: white;
-    color: black;
+    color: #ffb13a;
     cursor: pointer;
     transition: ease 1s;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
@@ -106,11 +104,4 @@ section {
 
 .show-btn {
     opacity: 1;
-}
-
-.top-btn-style:hover {
-    background-color: black;
-    color: white;
-    border: 2px solid white;
-    transition: ease 1s;
 }
