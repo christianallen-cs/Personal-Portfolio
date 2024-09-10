@@ -8,23 +8,23 @@ const About = () => {
                 my Story
             </h1>
             <h2>
-                Thank you for taking the time to check out my personal website! i made this with react.js
-                and some good old typical css. i am a recent computer science graduate who also holds an associate
-                degree in general studies.
+                First, thank you for taking the time to check out my website. i did this little project with react,
+                javascript, and good old css. i am always looking for constructive feedback, so if you notice anything
+                that could be improved or if there is a bug, let me know!
             </h2>
             <h2>
-                From an early age, i was introduced to the world of computer gaming and that sparked it all.
-                as i grew up playing video games, i started to tinker with the various components of my pc to
-                get more fps and maximize my computer's performance. i started to learn about overclocking,
-                undervolting, and even messing with the windows registry to remove unnecessary windows bloat. one
+                i was introduced to computer gaming from an early age, which sparked it all.
+                As i grew up playing video games, i started to tinker with the various components of my pc to
+                gain more fps and maximize my computer's performance. i learned about overclocking my gpu,
+                undervolting my cpu and even messing with the windows registry to remove unnecessary bloatware. one
                 thing led to another, and eventually, i graduated high school with no idea what i wanted to do
                 in life.. but what 18-year-old does yano?
             </h2>
             <h2>
-                i went to my local community college and worked on my associate's degree while taking various
-                electives to hone in on what i wanted. i landed in computer science; from there, the rest is history.
-                i have now received my bachelor's degree and am looking to find my first professional software
-                engineering role where i can make a difference by pursuing my passion for impactful technology.
+                i then went to my local community college and worked on my associate's degree while taking various
+                electives in an attempt to dial in on what i truly wanted. i landed on computer science and from there,
+                the rest is history. i have now received my bachelor's degree and am looking to find my first
+                professional software engineering role where i can make an impact by pursuing my passion.
             </h2>
         </div>
     )
