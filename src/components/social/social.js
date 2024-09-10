@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, {useEffect} from "react";
 import "./social.css"
 
 const Social = () => {
@@ -15,25 +15,25 @@ const Social = () => {
                 <li className="social-item">
                     <a href="https://www.linkedin.com/in/christian-allen-cs/" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-linkedin-in"></i>
-                        <span>LinkedIn</span>
+                        <span>linkedin</span>
                     </a>
                 </li>
                 <li className="social-item">
                     <a href="https://github.com/christianallen-cs" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-github"></i>
-                        <span>Github</span>
+                        <span>github</span>
                     </a>
                 </li>
                 <li className="social-item">
                     <a href="mailto:christianallen213@gmail.com">
                         <i className="fa fa-envelope"></i>
-                        <span>Email</span>
+                        <span>email</span>
                     </a>
                 </li>
                 <li className="social-item">
                     <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
                         <i className="fas fa-file"></i>
-                        <span>Resume</span>
+                        <span>resume</span>
                     </a>
                 </li>
             </ul>

@@ -27,35 +27,36 @@
 }
 
 .social-item a {
-    color: white;
+    color: #ffb13a;
     display: flex;
     align-items: center;
     height: 100%;
     width: 60px;
     padding-left: 15px;
     padding-right: 15px;
-    border-radius:0 25px 25px 0;
+    border-radius: 0 20px 20px 0;
+    border: 1px solid rgb(58, 58, 58);
     transition: width 0.5s ease, padding-left 0.5s ease, box-shadow 0.5s ease;
     text-decoration: none;
     box-sizing: border-box;
     position: relative;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
 }
 
 .social-item:first-child a {
-    background: #2867B2;
+    background: radial-gradient(circle at 30% 30%, #3d3d3d, #1a1a1a);
 }
 
 .social-item:nth-child(2) a {
-    background: #333;
+    background: radial-gradient(circle at 30% 30%, #3d3d3d, #1a1a1a);
 }
 
 .social-item:nth-child(3) a {
-    background: #dc3545;
+    background: radial-gradient(circle at 30% 30%, #3d3d3d, #1a1a1a);
 }
 
 .social-item:nth-child(4) a {
-    background: #2ecc71;
+    background: radial-gradient(circle at 30% 30%, #3d3d3d, #1a1a1a);
 }
 
 .social-item a i {
@@ -65,9 +66,8 @@
 
 .social-item a span {
     display: inline-block;
-    font-weight: bold;
+    font-family: starjedi, serif;
     letter-spacing: 1px;
-    text-transform: uppercase;
     opacity: 0;
     transition: opacity 0.5s ease, transform 0.5s ease;
     margin-top: 2px;
