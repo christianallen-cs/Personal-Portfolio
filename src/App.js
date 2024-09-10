@@ -1,16 +1,11 @@
 import React, {useRef} from 'react'
-import ScrollToTop from "./components/ScrollToTop";
-import About from "./pages/about/about";
-import Projects from "./pages/projects/projects";
-import Social from "./components/social/social";
-import Skills from "./pages/skills/skills";
-import ParticlesComponent from "./components/Particles";
+import ScrollToTop from "./components/ScrollToTop"
+import About from "./pages/about/about"
+import Projects from "./pages/projects/projects"
+import Social from "./components/social/social"
+import Skills from "./pages/skills/skills"
+import ParticlesComponent from "./components/Particles"
 import "./App.css"
-import "./components/social/social.css"
-import "./pages/about/about.css"
-import "./pages/skills/skills.css"
-import "./components/fonts/Starjedi.ttf"
-import "./components/fonts/Starjhol.ttf";
 
 function App() {
     const projects = useRef(null);
