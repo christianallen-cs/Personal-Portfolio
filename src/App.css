@@ -49,12 +49,13 @@ body, html {
     letter-spacing: 2px;
     cursor: pointer;
     padding: 0 50px;
+    margin-top: 10px;
     transition: 0.3s ease-in-out;
 }
 
 .nav-links li:hover {
-    text-shadow: 0 0 10px #ffb13a;
-    transition: 0.3s ease-in-out;
+    transform: translateY(5px);
+    transition: .3s ease-in-out;
 
 }
 
@@ -70,6 +71,8 @@ body, html {
 
 .intro-page h1 {
     font-size: 10rem;
+    margin-top: -40px;
+    margin-bottom: -15px;
 }
 
 .intro-page h2 {
