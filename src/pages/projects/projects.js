@@ -11,28 +11,40 @@ const projectData = [
         image: './screenshots/ai.jpg',
         title: 'Ai Pathfinder',
         description: 'A group of sophisticated Ai pathfinding algorithms using Scala and javaScript to enhance enemy movement precision. optimized player location retrieval and path computations, enabling smooth, efficient Ai navigation without diagonal movements.',
-        link: 'https://github.com/christianallen-cs/Enemy-AI'
+        link: 'https://github.com/christianallen-cs/Enemy-AI',
+        icon: './icons/scala.png',
+        icon2: './icons/javascript.png',
+        icon3: './icons/html.png'
     },
     {
         id: 2,
-        image: './screenshots/music-rainbow.jpg',
-        title: 'Genetic Algorithm',
-        description: 'Advanced statistical methods and a Bayesian average algorithm using scala, addressing biases in user ratings. Designed functions for processing song data from CSv files, calculating cost functions, and refining playlist recommendations.',
-        link: 'https://github.com/christianallen-cs/Genetic-Algorithm'
+        image: './screenshots/multithread.jpg',
+        title: 'multithreaded web app',
+        description: 'A full-stack web application that focused on the multithreading capabilities of java. displayed language translations for both english and french, time zone conversions and currency formatting all integrated with docker for containerization',
+        link: 'https://github.com/christianallen-cs/Multithreaded-Web-App',
+        icon: './icons/typescript.png',
+        icon2: './icons/docker.png',
+        icon3: './icons/springboot.png',
     },
     {
         id: 3,
-        image: './screenshots/route.jpg',
-        title: 'SmartRoute System',
-        description: 'A nearest neighbor algorithm to reduce package delivery and truck mileage by 30 percent. implemented a custom hash table for real-time package tracking and created an intuitive ui for streamlined delivery monitoring and truck status.',
-        link: 'https://github.com/christianallen-cs/Smart-Route'
+        image: './screenshots/database.jpg',
+        title: 'back-end hub',
+        description: 'A Spring Boot application with a complete back-end system, including entity configurations, dao layers, and service implementations, integrated with a front-end for a web application. Features robust entity relationships, data handling, and user interactions.',
+        link: 'https://github.com/christianallen-cs/Vacation-Checkout',
+        icon: './icons/java.png',
+        icon2: './icons/angular.png',
+        icon3: './icons/sql.png'
     },
     {
         id: 4,
         image: './screenshots/movie.jpg',
         title: 'Movie Matcher',
-        description: 'Python-based movie recommendation system using cosine similarity to match user ratings with films. Processed a vast dataset of over 50,000 movies and 100,000 ratings, delivering top recommendations through a user-friendly interface.',
-        link: 'https://github.com/christianallen-cs/WGU-Capstone'
+        description: 'A python based movie recommendation system using cosine similarity to match user ratings with films. Processed a vast dataset of over 50,000 movies and 100,000 ratings, delivering top recommendations through a user-friendly interface.',
+        link: 'https://github.com/christianallen-cs/WGU-Capstone',
+        icon: './icons/python.png',
+        icon2: './icons/jupyter.png',
+        icon3: './icons/kaggle.png'
     },
 ]
 
@@ -43,7 +55,7 @@ function Projects() {
                 <div className="section">
                     <div className="title-holder">
                         <h1>my projects</h1>
-                        <div className="subtitle">explore my favorites</div>
+                        <div className="subtitle">explore some of my favorites</div>
                     </div>
                     <Row className="card-grid">
                         {projectData.slice(0, 4).map(blog => (
@@ -66,6 +78,9 @@ function Projects() {
                                                 Repository
                                                 <i className="fas fa-chevron-right"></i>
                                             </a>
+                                            <Card.Img variant="bottom" src={blog.icon}></Card.Img>
+                                            <Card.Img variant="bottom" src={blog.icon2}></Card.Img>
+                                            <Card.Img variant="bottom" src={blog.icon3}></Card.Img>
                                         </Card.Body>
                                     </Card>
                                 </div>
