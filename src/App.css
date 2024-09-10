@@ -45,7 +45,7 @@ body, html {
 }
 
 .nav-links li {
-    color: #F7E6A5;
+    color: #ffb13a;
     font-size: 24px;
     letter-spacing: 2px;
     cursor: pointer;
@@ -54,13 +54,13 @@ body, html {
 }
 
 .nav-links li:hover {
-    text-shadow: 0 0 10px #F7E6A5;
+    text-shadow: 0 0 10px #ffb13a;
     transition: 0.3s ease-in-out;
 
 }
 
 .intro-page {
-    color: #F7E6A5;
+    color: #ffb13a;
     font-family: "starjhol", serif;
     display: flex;
     flex-direction: column;
