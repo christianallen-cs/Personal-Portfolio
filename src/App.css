@@ -114,7 +114,6 @@ section {
 @media (max-width: 768px) {
     section {
         padding: 40px;
-        box-sizing: border-box;
     }
 
     .intro-page h1 {
@@ -143,7 +142,6 @@ section {
 @media (max-width: 480px) {
     section {
         padding: 10px;
-        box-sizing: border-box;
     }
 
     .intro-page h1 {
