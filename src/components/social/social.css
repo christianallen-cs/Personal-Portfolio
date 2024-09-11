@@ -97,50 +97,42 @@
 
 @media (max-width: 768px) {
     .social-bar {
-        width: 50px; /* Reduce width of the social bar */
+        width: 50px;
     }
 
     .social-item a {
-        width: 50px; /* Adjust width for mobile screens */
-        padding-left: 10px; /* Reduce padding */
-        padding-right: 10px; /* Reduce padding */
+        width: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .social-item a i {
-        font-size: 22px; /* Reduce icon size */
+        font-size: 22px;
     }
 
     .social-item a span {
-        font-size: 0.9rem; /* Reduce font size */
-        margin-left: 4px; /* Adjust margin */
-    }
-
-    .social-item a:hover {
-        width: 150px; /* Reduce expanded width on mobile */
+        font-size: 0.9rem;
+        margin-left: 4px;
     }
 }
 
 @media (max-width: 480px) {
     .social-bar {
-        width: 40px; /* Further reduce width for very small screens */
+        width: 30px;
     }
 
     .social-item a {
-        width: 40px; /* Adjust width for very small screens */
-        padding-left: 8px; /* Further reduce padding */
-        padding-right: 8px; /* Further reduce padding */
+        width: 30px;
+        padding-left: 3px;
+        padding-right: 8px;
     }
 
     .social-item a i {
-        font-size: 18px; /* Further reduce icon size */
+        font-size: 18px;
     }
 
     .social-item a span {
-        font-size: 0.8rem; /* Further reduce font size */
-        margin-left: 2px; /* Adjust margin */
-    }
-
-    .social-item a:hover {
-        width: 120px; /* Further reduce expanded width */
+        font-size: 0.8rem;
+        margin-left: 2px;
     }
 }

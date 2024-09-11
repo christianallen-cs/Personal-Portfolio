@@ -76,60 +76,60 @@
 
 @media (max-width: 768px) {
     .skills-page {
-        padding: 0 15px; /* Adjust padding for smaller screens */
+        padding: 0 15px;
     }
 
     .skills-category h1 {
-        font-size: 3rem; /* Reduce font size for h1 */
+        font-size: 2rem;
     }
 
     .skills-category h2, .tools-category h2 {
-        font-size: 1.5rem; /* Reduce font size for h2 */
-        padding-bottom: 30px; /* Adjust padding */
-        padding-top: 20px; /* Adjust padding */
+        font-size: 1rem;
+        padding-bottom: 30px;
+        padding-top: 20px;
     }
 
     .skills-list, .tools-list {
-        gap: 20px; /* Reduce gap between items */
+        gap: 20px;
     }
 
     .floating-circle {
-        width: 100px; /* Adjust width for mobile */
-        height: 100px; /* Adjust height for mobile */
+        width: 100px;
+        height: 100px;
     }
 
     .icon {
-        width: 60px; /* Adjust icon size for mobile */
-        height: 60px; /* Adjust icon size for mobile */
+        width: 60px;
+        height: 60px;
     }
 }
 
 @media (max-width: 480px) {
     .skills-page {
-        padding: 0 10px; /* Further reduce padding for very small screens */
+        padding: 0 10px;
     }
 
     .skills-category h1 {
-        font-size: 2.5rem; /* Further reduce font size for h1 */
+        font-size: 2rem;
     }
 
     .skills-category h2, .tools-category h2 {
-        font-size: 1.2rem; /* Further reduce font size for h2 */
-        padding-bottom: 20px; /* Adjust padding */
-        padding-top: 10px; /* Adjust padding */
+        font-size: 1rem;
+        padding-bottom: 10px;
+        padding-top: 10px;
     }
 
     .skills-list, .tools-list {
-        gap: 10px; /* Further reduce gap between items */
+        gap: 10px;
     }
 
     .floating-circle {
-        width: 80px; /* Further reduce width */
-        height: 80px; /* Further reduce height */
+        width: 80px;
+        height: 80px;
     }
 
     .icon {
-        width: 50px; /* Further reduce icon size */
-        height: 50px; /* Further reduce icon size */
+        width: 50px;
+        height: 50px;
     }
 }

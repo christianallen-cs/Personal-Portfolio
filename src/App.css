@@ -95,6 +95,7 @@ section {
     left: 10px;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
+    z-index: 1;
 }
 
 .top-btn-style {
@@ -104,7 +105,6 @@ section {
     color: #ffb13a;
     cursor: pointer;
     transition: ease 1s;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .show-btn {
@@ -114,6 +114,8 @@ section {
 @media (max-width: 768px) {
     section {
         padding: 20px;
+        margin-bottom: 30px;
+        box-sizing: border-box;
     }
 
     .intro-page h1 {
@@ -121,7 +123,7 @@ section {
     }
 
     .intro-page h2 {
-        font-size: 1.5rem;
+        font-size: 3rem;
     }
 
     .navbar {
@@ -148,24 +150,28 @@ section {
 
 @media (max-width: 480px) {
     section {
-        padding: 15px;
+        padding: 10px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
     }
 
     .intro-page h1 {
         font-size: 4rem;
+        align-items: center;
     }
 
     .intro-page h2 {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .navbar {
         padding: 10px;
+        width: 100%;
     }
 
     .nav-links li {
-        font-size: 14px;
-        padding: 8px 0;
+        font-size: 12px;
     }
 
     .top-btn-position {

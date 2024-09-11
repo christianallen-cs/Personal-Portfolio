@@ -106,72 +106,72 @@
 
 @media (max-width: 768px) {
     .title-holder h1 {
-        font-size: 3rem; /* Reduce font size for h1 on smaller screens */
+        font-size: 2rem;
     }
 
     .title-holder .subtitle {
-        font-size: 1.2rem; /* Reduce font size for subtitle */
-        margin-bottom: 15px; /* Adjust margin */
+        font-size: 1rem;
+        margin-bottom: 15px;
     }
 
     .card-grid {
-        grid-template-columns: 1fr; /* Stack cards in one column on small screens */
-        gap: 20px; /* Reduce gap between cards */
+        grid-template-columns: 1fr;
+        gap: 20px;
     }
 
     .card-img-top {
-        height: 120px; /* Adjust height for images */
-        width: 100%; /* Make images responsive */
+        height: 120px;
+        width: 100%;
     }
 
     .card-img-bottom {
-        height: 30px; /* Adjust height for bottom images */
-        width: 60px; /* Adjust width for bottom images */
-        padding: 0 10px; /* Adjust padding */
+        height: 30px;
+        width: 60px;
+        padding: 0 10px;
     }
 
     .card-body .card-title {
-        font-size: 1rem; /* Reduce font size for card titles */
+        font-size: 1rem;
     }
 
     .card-body .card-text {
-        font-size: .7rem; /* Reduce font size for card text */
+        font-size: .7rem;
     }
 
     .card-body .btn {
-        padding: 6px 12px; /* Adjust button padding */
+        padding: 6px 12px;
     }
 }
 
 @media (max-width: 480px) {
     .title-holder h1 {
-        font-size: 2.5rem; /* Further reduce font size for h1 */
+        font-size: 2rem;
     }
 
     .title-holder .subtitle {
-        font-size: 1rem; /* Further reduce font size for subtitle */
-        margin-bottom: 10px; /* Adjust margin */
+        font-size: 1rem;
+        margin-bottom: 10px;
     }
 
     .card-img-top {
-        height: 100px; /* Further adjust height for images */
+        height: 100px;
     }
 
     .card-img-bottom {
-        height: 25px; /* Further adjust height for bottom images */
-        width: 50px; /* Further adjust width for bottom images */
-        padding: 0 5px; /* Adjust padding */
+        height: 25px;
+        width: 50px;
+        padding: 0 5px;
     }
 
     .card-body .card-title {
-        font-size: .9rem; /* Further reduce font size for card titles */
+        font-size: .9rem;
     }
 
     .card-body .card-text {
-        font-size: .6rem; /* Further reduce font size for card text */
+        font-size: .6rem;
     }
 
     .card-body .btn {
-        padding: 4px 8px; /* Further adjust button padding */
+        padding: 4px 8px;
     }
 }

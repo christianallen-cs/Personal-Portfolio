@@ -30,29 +30,30 @@ h2 {
 
 @media (max-width: 768px) {
     .about-page {
-        padding: 0 15px; /* Adjust padding for smaller screens */
+        padding: 0 15px;
+        margin-left: 20px;
     }
 
     h1 {
-        font-size: 3rem; /* Reduce font size for smaller screens */
+        font-size: 2rem;
     }
 
     h2 {
-        font-size: 1rem; /* Reduce font size for smaller screens */
+        font-size: 1rem;
     }
 }
 
 @media (max-width: 480px) {
     .about-page {
-        padding: 0 10px; /* Further reduce padding for very small screens */
+        padding: 0 10px;
     }
 
     h1 {
-        font-size: 2.5rem; /* Further reduce font size */
+        font-size: 2rem;
     }
 
     h2 {
-        font-size: 0.9rem; /* Further reduce font size */
-        line-height: 1.4; /* Adjust line height */
+        font-size: 0.7rem;
+        line-height: 1.4;
     }
 }
