@@ -27,3 +27,32 @@ h2 {
     font-family: starjedi, serif;
     letter-spacing: .1rem;
 }
+
+@media (max-width: 768px) {
+    .about-page {
+        padding: 0 15px; /* Adjust padding for smaller screens */
+    }
+
+    h1 {
+        font-size: 3rem; /* Reduce font size for smaller screens */
+    }
+
+    h2 {
+        font-size: 1rem; /* Reduce font size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .about-page {
+        padding: 0 10px; /* Further reduce padding for very small screens */
+    }
+
+    h1 {
+        font-size: 2.5rem; /* Further reduce font size */
+    }
+
+    h2 {
+        font-size: 0.9rem; /* Further reduce font size */
+        line-height: 1.4; /* Adjust line height */
+    }
+}

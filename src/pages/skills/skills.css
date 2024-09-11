@@ -5,12 +5,14 @@
     align-items: center;
     height: 100vh;
     color: #ffb13a;
+    padding: 0 20px;
 }
 
 .skills-category, .tools-category {
     text-align: center;
     max-width: 800px;
     width: 100%;
+    padding: 0 20px;
 }
 
 .skills-category h1, .skills-category h2, .tools-category h2 {
@@ -70,4 +72,64 @@
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
     transform: translateY(-20px);
     background: radial-gradient(circle at 30% 30%, #4d4d4d, #2a2a2a);
+}
+
+@media (max-width: 768px) {
+    .skills-page {
+        padding: 0 15px; /* Adjust padding for smaller screens */
+    }
+
+    .skills-category h1 {
+        font-size: 3rem; /* Reduce font size for h1 */
+    }
+
+    .skills-category h2, .tools-category h2 {
+        font-size: 1.5rem; /* Reduce font size for h2 */
+        padding-bottom: 30px; /* Adjust padding */
+        padding-top: 20px; /* Adjust padding */
+    }
+
+    .skills-list, .tools-list {
+        gap: 20px; /* Reduce gap between items */
+    }
+
+    .floating-circle {
+        width: 100px; /* Adjust width for mobile */
+        height: 100px; /* Adjust height for mobile */
+    }
+
+    .icon {
+        width: 60px; /* Adjust icon size for mobile */
+        height: 60px; /* Adjust icon size for mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .skills-page {
+        padding: 0 10px; /* Further reduce padding for very small screens */
+    }
+
+    .skills-category h1 {
+        font-size: 2.5rem; /* Further reduce font size for h1 */
+    }
+
+    .skills-category h2, .tools-category h2 {
+        font-size: 1.2rem; /* Further reduce font size for h2 */
+        padding-bottom: 20px; /* Adjust padding */
+        padding-top: 10px; /* Adjust padding */
+    }
+
+    .skills-list, .tools-list {
+        gap: 10px; /* Further reduce gap between items */
+    }
+
+    .floating-circle {
+        width: 80px; /* Further reduce width */
+        height: 80px; /* Further reduce height */
+    }
+
+    .icon {
+        width: 50px; /* Further reduce icon size */
+        height: 50px; /* Further reduce icon size */
+    }
 }

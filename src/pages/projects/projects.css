@@ -1,6 +1,6 @@
 #blog {
-    padding: 0;
-    height: 100vh;
+    padding: 0 20px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,7 +68,7 @@
 
 .card-img-bottom {
     height: 41px;
-    width: 40px;
+    width: 70px;
     padding: 0 15px;
     margin-bottom: -14px;
 }
@@ -102,4 +102,76 @@
 
 .card-body .btn i {
     margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+    .title-holder h1 {
+        font-size: 3rem; /* Reduce font size for h1 on smaller screens */
+    }
+
+    .title-holder .subtitle {
+        font-size: 1.2rem; /* Reduce font size for subtitle */
+        margin-bottom: 15px; /* Adjust margin */
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr; /* Stack cards in one column on small screens */
+        gap: 20px; /* Reduce gap between cards */
+    }
+
+    .card-img-top {
+        height: 120px; /* Adjust height for images */
+        width: 100%; /* Make images responsive */
+    }
+
+    .card-img-bottom {
+        height: 30px; /* Adjust height for bottom images */
+        width: 60px; /* Adjust width for bottom images */
+        padding: 0 10px; /* Adjust padding */
+    }
+
+    .card-body .card-title {
+        font-size: 1rem; /* Reduce font size for card titles */
+    }
+
+    .card-body .card-text {
+        font-size: .7rem; /* Reduce font size for card text */
+    }
+
+    .card-body .btn {
+        padding: 6px 12px; /* Adjust button padding */
+    }
+}
+
+@media (max-width: 480px) {
+    .title-holder h1 {
+        font-size: 2.5rem; /* Further reduce font size for h1 */
+    }
+
+    .title-holder .subtitle {
+        font-size: 1rem; /* Further reduce font size for subtitle */
+        margin-bottom: 10px; /* Adjust margin */
+    }
+
+    .card-img-top {
+        height: 100px; /* Further adjust height for images */
+    }
+
+    .card-img-bottom {
+        height: 25px; /* Further adjust height for bottom images */
+        width: 50px; /* Further adjust width for bottom images */
+        padding: 0 5px; /* Adjust padding */
+    }
+
+    .card-body .card-title {
+        font-size: .9rem; /* Further reduce font size for card titles */
+    }
+
+    .card-body .card-text {
+        font-size: .6rem; /* Further reduce font size for card text */
+    }
+
+    .card-body .btn {
+        padding: 4px 8px; /* Further adjust button padding */
+    }
 }
