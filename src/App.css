@@ -15,7 +15,9 @@
 }
 
 body, html {
+    overflow: auto;
     overflow-x: hidden;
+    touch-action: auto;
 }
 
 #particles canvas{
