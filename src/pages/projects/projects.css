@@ -105,8 +105,13 @@
 }
 
 @media (max-width: 768px) {
+    .section {
+        padding: 0 15px;
+        margin-left: 15px;
+    }
+
     .title-holder h1 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .title-holder .subtitle {
@@ -116,7 +121,7 @@
 
     .card-grid {
         grid-template-columns: 1fr;
-        gap: 20px;
+        gap: 30px;
     }
 
     .card-img-top {
@@ -125,9 +130,9 @@
     }
 
     .card-img-bottom {
-        height: 30px;
+        height: 40px;
         width: 60px;
-        padding: 0 10px;
+        padding: 0 0 0 15px;
     }
 
     .card-body .card-title {
@@ -144,27 +149,34 @@
 }
 
 @media (max-width: 480px) {
+    .section {
+        padding: 0 15px;
+        margin-left: 15px;
+    }
+
     .title-holder h1 {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     .title-holder .subtitle {
-        font-size: 1rem;
-        margin-bottom: 10px;
+        font-size: 0.9rem;
     }
 
     .card-img-top {
         height: 100px;
+        width: 100%;
     }
 
     .card-img-bottom {
-        height: 25px;
-        width: 50px;
-        padding: 0 5px;
+        height: 30px;
+        width: 30px;
+        margin-right: 25px;
+        margin-top: 10px;
+        padding: 5px 0 0 0;
     }
 
     .card-body .card-title {
-        font-size: .9rem;
+        font-size: .8rem;
     }
 
     .card-body .card-text {
@@ -172,6 +184,6 @@
     }
 
     .card-body .btn {
-        padding: 4px 8px;
+        padding: 4px 15px;
     }
 }

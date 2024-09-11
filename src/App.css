@@ -113,7 +113,8 @@ section {
 
 @media (max-width: 768px) {
     section {
-        padding: 40px;
+        padding: 0 15px;
+        margin-left: 15px;
     }
 
     .intro-page h1 {
@@ -141,7 +142,8 @@ section {
 
 @media (max-width: 480px) {
     section {
-        padding: 10px;
+        padding: 0 15px;
+        margin-left: 15px;
     }
 
     .intro-page h1 {

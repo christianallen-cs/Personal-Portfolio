@@ -77,25 +77,28 @@
 @media (max-width: 768px) {
     .skills-page {
         padding: 0 15px;
+        margin-left: 15px;
     }
 
     .skills-category h1 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .skills-category h2, .tools-category h2 {
         font-size: 1rem;
         padding-bottom: 30px;
-        padding-top: 20px;
+        padding-top: 5px;
     }
 
     .skills-list, .tools-list {
-        gap: 20px;
+        gap: 30px;
+        margin-bottom: 80px;
+        margin-top: 10px;
     }
 
     .floating-circle {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     .icon {
@@ -106,7 +109,8 @@
 
 @media (max-width: 480px) {
     .skills-page {
-        padding: 0 10px;
+        padding: 0 15px;
+        margin-left: 15px;
     }
 
     .skills-category h1 {
@@ -115,21 +119,21 @@
 
     .skills-category h2, .tools-category h2 {
         font-size: 1rem;
-        padding-bottom: 10px;
-        padding-top: 10px;
+        padding-bottom: 40px;
+        padding-top: 30px;
     }
 
     .skills-list, .tools-list {
-        gap: 10px;
+        gap: 15px;
     }
 
     .floating-circle {
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
     }
 
     .icon {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
     }
 }

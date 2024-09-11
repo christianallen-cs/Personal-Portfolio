@@ -31,11 +31,11 @@ h2 {
 @media (max-width: 768px) {
     .about-page {
         padding: 0 15px;
-        margin-left: 20px;
+        margin-left: 15px;
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     h2 {
@@ -45,7 +45,8 @@ h2 {
 
 @media (max-width: 480px) {
     .about-page {
-        padding: 0 10px;
+        padding: 0 15px;
+        margin-left: 15px;
     }
 
     h1 {
@@ -53,7 +54,7 @@ h2 {
     }
 
     h2 {
-        font-size: 0.7rem;
-        line-height: 1.4;
+        font-size: 0.6rem;
+        line-height: 1.5;
     }
 }
