@@ -119,8 +119,8 @@
 
     .skills-category h2, .tools-category h2 {
         font-size: 1rem;
-        padding-bottom: 40px;
-        padding-top: 30px;
+        padding-bottom: 20px;
+        padding-top: 10px;
     }
 
     .skills-list, .tools-list {
