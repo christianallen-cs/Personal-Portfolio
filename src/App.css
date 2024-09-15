@@ -76,18 +76,17 @@ body, html {
 }
 
 .intro-page h1 {
-    font-size: 10rem;
+    font-size: 5rem;
     margin-top: -80px;
     margin-bottom: -15px;
 }
 
 .intro-page h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     letter-spacing: .2rem;
 }
 
 section {
-    height: 100vh;
     padding: 20px;
 }
 
@@ -120,11 +119,11 @@ section {
     }
 
     .intro-page h1 {
-        font-size: 6rem;
+        font-size: 3rem;
     }
 
     .intro-page h2 {
-        font-size: 3rem;
+        font-size: 1rem;
     }
 
     .navbar {
@@ -149,7 +148,8 @@ section {
     }
 
     .intro-page h1 {
-        font-size: 3rem;
+        font-size: 1.6rem;
+        padding: 15px;
     }
 
     .intro-page h2 {
