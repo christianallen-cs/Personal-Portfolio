@@ -11,8 +11,9 @@
 .about-page h1,
 .about-page h2 {
     text-align: justify;
-    word-spacing: -1px;
     max-width: 800px;
+    word-spacing: -2px;
+    letter-spacing: 2px;
 }
 
 h1 {
@@ -26,7 +27,6 @@ h2 {
     line-height: 1.6;
     margin-bottom: 1rem;
     font-family: starjedi, serif;
-    letter-spacing: 2px;
 }
 
 @media (max-width: 768px) {
