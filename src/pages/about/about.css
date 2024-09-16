@@ -12,8 +12,9 @@
 .about-page h2 {
     text-align: justify;
     max-width: 800px;
-    word-spacing: -2px;
+    word-spacing: -1px;
     letter-spacing: 2px;
+    hyphens: auto;
 }
 
 h1 {
@@ -27,35 +28,4 @@ h2 {
     line-height: 1.6;
     margin-bottom: 1rem;
     font-family: starjedi, serif;
-}
-
-@media (max-width: 768px) {
-    .about-page {
-        padding: 0 15px;
-        margin-left: 15px;
-    }
-
-    h1 {
-        font-size: 3rem;
-    }
-
-    h2 {
-        font-size: .7rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .about-page {
-        padding: 0 15px;
-        margin-left: 15px;
-    }
-
-    h1 {
-        font-size: 2rem;
-    }
-
-    h2 {
-        font-size: 0.7rem;
-        line-height: 1.3;
-    }
 }
