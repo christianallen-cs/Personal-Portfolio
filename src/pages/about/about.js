@@ -8,7 +8,7 @@ const About = () => {
                 my Story
             </h1>
             <h2>
-                Thank you for taking the time to check out my website. i created this personal website with react,
+                Thank you for taking the time to check out my personal website. i created this with react,
                 javascript, and good old css. i am always looking for constructive feedback, so if you notice anything
                 that could be improved or if the viewing experience is not optimal on your device, let me know!
             </h2>

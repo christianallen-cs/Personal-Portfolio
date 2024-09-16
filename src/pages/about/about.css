@@ -21,10 +21,12 @@
 .about-page h1 {
     font-size: 4rem;
     font-family: starjhol, serif;
+
 }
 
 .about-page h2 {
     font-size: 1.2rem;
-    line-height: 1.6;
+    line-height: 2rem;
     font-family: starjedi, serif;
+    padding: 10px;
 }
