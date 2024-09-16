@@ -1,6 +1,5 @@
 #blog {
     padding: 0 20px;
-    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,11 +21,11 @@
 .title-holder h1 {
     color: #ffb13a;
     font-size: 4rem;
+    font-family: starjhol, serif;
 }
 
 .title-holder .subtitle {
     color: #ffb13a;
-    font-family: starjedi, serif;
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
@@ -34,13 +33,12 @@
 .card-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, auto);
+    grid-auto-rows: auto;
     gap: 50px;
-    max-width: 1300px;
+    max-width: 1400px;
     width: 100%;
-    height: auto;
     align-items: start;
-    margin-bottom: 50px;
+    margin: 0 auto 50px;
 }
 
 .card {
@@ -59,18 +57,18 @@
 }
 
 .card-img-top {
-    border: 1px solid rgb(58, 58, 58);
+    border: 2px solid rgb(0, 0, 0);
     height: 150px;
-    width: 630px;
+    width: 100%;
     object-fit: cover;
     margin-bottom: -10px;
 }
 
 .card-img-bottom {
-    height: 41px;
+    height: 40px;
     width: 70px;
     padding: 0 15px;
-    margin-bottom: -14px;
+    margin-bottom: -15px;
 }
 
 .card-body {
@@ -78,17 +76,20 @@
     color: #ffb13a;
 }
 
-.card-body .card-title {
-    font-size: 1.1rem;
-    margin-bottom: 10px;
+.card-body .card-title,
+.card-body .card-text {
     letter-spacing: 1px;
 }
 
+.card-body .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
 .card-body .card-text {
-    font-size: .75rem;
+    font-size: 0.75rem;
     margin-top: 10px;
     margin-bottom: 30px;
-    letter-spacing: 1px;
 }
 
 .card-body .btn {
