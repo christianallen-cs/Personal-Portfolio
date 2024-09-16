@@ -11,21 +11,20 @@
 .about-page h1,
 .about-page h2 {
     text-align: justify;
-    max-width: 800px;
+    max-width: 1000px;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
     word-spacing: -1px;
-    letter-spacing: 2px;
     hyphens: auto;
 }
 
-h1 {
+.about-page h1 {
     font-size: 4rem;
-    margin-bottom: 1rem;
     font-family: starjhol, serif;
 }
 
-h2 {
+.about-page h2 {
     font-size: 1.2rem;
     line-height: 1.6;
-    margin-bottom: 1rem;
     font-family: starjedi, serif;
 }
