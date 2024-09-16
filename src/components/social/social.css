@@ -36,26 +36,14 @@
     padding-right: 15px;
     border-radius: 0 20px 20px 0;
     border: 1px solid rgb(58, 58, 58);
-    transition: width 0.5s ease, padding-left 0.5s ease, box-shadow 0.5s ease;
+    transition: width 0.5s ease;
     text-decoration: none;
     box-sizing: border-box;
     position: relative;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
 }
 
-.social-item:first-child a {
-    background: radial-gradient(circle at 30% 30%, #3d3d3d, #1a1a1a);
-}
-
-.social-item:nth-child(2) a {
-    background: radial-gradient(circle at 30% 30%, #3d3d3d, #1a1a1a);
-}
-
-.social-item:nth-child(3) a {
-    background: radial-gradient(circle at 30% 30%, #3d3d3d, #1a1a1a);
-}
-
-.social-item:nth-child(4) a {
+.social-item a {
     background: radial-gradient(circle at 30% 30%, #3d3d3d, #1a1a1a);
 }
 
@@ -84,13 +72,4 @@
 .social-item a:hover span {
     opacity: 1;
     transform: translateX(0);
-}
-
-@keyframes revealText {
-    from {
-        transform: translateX(-100%);
-    }
-    to {
-        transform: translateX(0);
-    }
 }
