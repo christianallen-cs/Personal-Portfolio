@@ -15,7 +15,6 @@
 }
 
 body, html {
-    overflow: auto;
     overflow-x: hidden;
     touch-action: auto;
 }
@@ -52,20 +51,17 @@ body, html {
     font-size: 24px;
     letter-spacing: 2px;
     cursor: pointer;
-    padding: 0 50px;
+    padding: 0 100px;
     margin-top: 10px;
     transition: 0.3s ease-in-out;
 }
 
 .nav-links li:hover {
     transform: translateY(-5px);
-    transition: .3s ease-in-out;
-
 }
 
 .intro-page {
     color: #ffb13a;
-    font-family: "starjhol", serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -77,12 +73,14 @@ body, html {
 
 .intro-page h1 {
     font-size: 5rem;
+    font-family: "starjhol", serif;
     margin-top: -80px;
     margin-bottom: -15px;
 }
 
 .intro-page h2 {
     font-size: 1.5rem;
+    font-family: "starjedi", serif;
     letter-spacing: .2rem;
 }
 
