@@ -31,7 +31,7 @@ const Skills = () => {
                 <h2>Coding Languages</h2>
                 <div className="skills-list">
                     {languages.map(skill => (
-                        <div key={skill.id} className="floating-circle">
+                        <div key={skill.id} className="floating-icon">
                             <img src={skill.src} alt={skill.alt} className="icon" />
                         </div>
                     ))}
@@ -41,7 +41,7 @@ const Skills = () => {
                 <h2>Technologies And Frameworks</h2>
                 <div className="tools-list">
                     {tools.map(skill => (
-                        <div key={skill.id} className="floating-circle">
+                        <div key={skill.id} className="floating-icon">
                             <img src={skill.src} alt={skill.alt} className="icon" />
                         </div>
                     ))}

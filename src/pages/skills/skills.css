@@ -39,11 +39,11 @@
     justify-content: center;
 }
 
-.floating-circle {
+.floating-icon {
     width: 120px;
     height: 120px;
-    border-radius: 50%;
     border: 1px solid rgb(58, 58, 58);
+    border-radius: 10%;
     background: radial-gradient(circle at 30% 30%, #3d3d3d, #1a1a1a);
     display: flex;
     justify-content: center;
@@ -59,7 +59,7 @@
     object-fit: contain;
 }
 
-.floating-circle:hover {
+.floating-icon:hover {
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
     transform: translateY(-20px);
     background: radial-gradient(circle at 30% 30%, #4d4d4d, #2a2a2a);
