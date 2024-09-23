@@ -27,6 +27,7 @@
 .about-page h2 {
     font-size: 1.2rem;
     line-height: 2rem;
+    letter-spacing: .1rem;
     font-family: starjedi, serif;
     padding: 10px;
 }
