@@ -1,5 +1,5 @@
 #blog {
-    padding: 0 20px;
+    padding: 0 10vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,30 +15,30 @@
 
 .title-holder {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 0.5rem;
 }
 
 .title-holder h1 {
     color: #ffb13a;
-    font-size: 4rem;
+    font-size: 5rem;
     font-family: starjhol, serif;
 }
 
 .title-holder .subtitle {
     color: #ffb13a;
-    font-size: 1.5rem;
-    margin-bottom: 20px;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .card-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: auto;
-    gap: 50px;
-    max-width: 1400px;
+    gap: 3rem;
+    max-width: 88rem;
     width: 100%;
     align-items: start;
-    margin: 0 auto 50px;
+    margin: 0 auto 3rem;
 }
 
 .card {
@@ -47,59 +47,59 @@
     max-width: 100%;
     overflow: hidden;
     background: radial-gradient(circle at 30% 30%, #3d3d3d, #1a1a1a);
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.6);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    transform: translateY(-0.3rem);
+    box-shadow: 0 0 1.2rem rgba(255, 255, 255, 0.8);
 }
 
 .card-img-top {
-    height: 150px;
+    height: 9rem;
     width: 100%;
     object-fit: cover;
-    margin-bottom: -10px;
+    margin-bottom: -0.5rem;
 }
 
 .card-img-bottom {
-    height: 40px;
-    width: 70px;
-    padding: 0 15px;
-    margin-bottom: -15px;
+    height: 2.5rem;
+    width: 4.3rem;
+    padding: 0 1rem;
+    margin-bottom: -1rem;
 }
 
 .card-body {
-    padding: 20px;
+    padding: 1.25rem;
     color: #ffb13a;
 }
 
 .card-body .card-title,
 .card-body .card-text {
-    letter-spacing: 1px;
+    letter-spacing: 0.05rem;
 }
 
 .card-body .card-title {
     font-size: 1.5rem;
-    margin-bottom: 10px;
+    margin-bottom: 0.5rem;
 }
 
 .card-body .card-text {
-    font-size: 0.75rem;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.9rem;
 }
 
 .card-body .btn {
     background-color: #ffb13a;
     color: #333;
     border: none;
-    padding: 8px 16px;
-    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
     text-decoration: none;
 }
 
 .card-body .btn i {
-    margin-left: 5px;
+    margin-left: 0.3rem;
 }
