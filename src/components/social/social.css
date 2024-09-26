@@ -3,7 +3,7 @@
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    width: 3.7rem;
+    width: 3vw;
     height: auto;
     transition: all 0.3s linear;
     display: flex;
@@ -19,7 +19,7 @@
 }
 
 .social-item {
-    height: 3.7rem;
+    height: 2.5vw;
     width: 100%;
     display: flex;
     align-items: center;
@@ -31,7 +31,7 @@
     display: flex;
     align-items: center;
     height: 100%;
-    width: 3.7rem;
+    width: 3.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
     border-radius: 0 0.6rem 0.6rem 0;
@@ -48,14 +48,15 @@
 }
 
 .social-item a i {
-    font-size: 1.6rem;
+    font-size: 1.2vw;
     margin-right: 1rem;
 }
 
 .social-item a span {
     display: inline-block;
     font-family: starjedi, serif;
-    letter-spacing: 0.06rem;
+    letter-spacing: 0.01rem;
+    font-size: 0.8vw;
     opacity: 0;
     transition: opacity 0.5s ease, transform 0.5s ease;
     margin-top: 0.1rem;
