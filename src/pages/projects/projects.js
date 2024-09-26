@@ -55,7 +55,6 @@ function Projects() {
                 <div className="section">
                     <div className="title-holder">
                         <h1>my projects</h1>
-                        <div className="subtitle">a few of my favorites</div>
                     </div>
                     <Row className="card-grid">
                         {projectData.slice(0, 4).map(blog => (
