@@ -108,3 +108,22 @@ section {
 .show-btn {
     opacity: 1;
 }
+
+@media (max-width: 768px) {
+    .nav-links li {
+        font-size: 4vw;
+    }
+
+    .intro-page h1 {
+        font-size: 6vw;
+    }
+
+    .intro-page h2 {
+        font-size: 3vw;
+    }
+
+    .top-btn-style {
+        height: 25px;
+        width: 25px;
+    }
+}

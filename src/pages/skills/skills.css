@@ -64,3 +64,24 @@
     transform: translateY(-1.25rem);
     background: radial-gradient(circle at 30% 30%, #4d4d4d, #2a2a2a);
 }
+
+@media (max-width: 768px) {
+    .skills-category h1 {
+        margin-top: 5vw;
+        font-size: 6vw;
+    }
+
+    .skills-category h2, .tools-category h2 {
+        font-size: 3vw;
+    }
+
+    .floating-icon {
+        width: 12vw;
+        height: 12vw;
+    }
+
+    .icon {
+        width: 8vw;
+        height: 8vw;
+    }
+}

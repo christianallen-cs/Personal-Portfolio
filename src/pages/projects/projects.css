@@ -60,8 +60,9 @@
 .card-img-bottom {
     height: 1.8vw;
     width: 3.5vw;
-    padding: 0 1rem;
-    margin-bottom: -1rem;
+    padding: 0;
+    margin-bottom: -10px;
+    margin-left: 1.5rem;
 }
 
 .card-body {
@@ -97,4 +98,33 @@
 
 .card-body .btn i {
     margin-left: 0.3rem;
+}
+
+@media (max-width: 768px) {
+    .title-holder h1 {
+        font-size: 6vw;
+    }
+
+    .card-grid {
+        gap: 6vw;
+        grid-template-columns: 1fr;
+    }
+
+    .card-body .card-title {
+        font-size: 3vw;
+    }
+
+    .card-body .card-text {
+        font-size: 2vw;
+    }
+
+    .card-body .btn {
+        font-size: 2vw;
+    }
+
+    .card-img-bottom {
+        height: 6vw;
+        width: 9vw;
+        margin-left: 8px;
+    }
 }

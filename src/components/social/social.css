@@ -74,3 +74,22 @@
     opacity: 1;
     transform: translateX(0);
 }
+
+@media (max-width: 768px) {
+    .social-item {
+        height: 7vw;
+    }
+
+    .social-item a {
+        width: 6vw;
+        padding-left: 0.3rem;
+    }
+
+    .social-item a i {
+        font-size: 3vw;
+    }
+
+    .social-item a:hover {
+        width: 6vw;
+    }
+}
