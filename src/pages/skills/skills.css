@@ -17,12 +17,12 @@
 }
 
 .skills-category h1 {
-    font-size: 5rem;
+    font-size: 5vw;
     font-family: starjhol, serif;
 }
 
 .skills-category h2, .tools-category h2 {
-    font-size: 2rem;
+    font-size: 2vw;
     font-family: starjedi, serif;
     letter-spacing: 0.1rem;
     padding: 0.6rem 0 2.5rem;
@@ -40,8 +40,8 @@
 }
 
 .floating-icon {
-    width: 7.5rem;
-    height: 7.5rem;
+    width: 5.5vw;
+    height: 5.5vw;
     border: 1px solid rgb(58, 58, 58);
     border-radius: 10%;
     background: radial-gradient(circle at 30% 30%, #3d3d3d, #1a1a1a);
@@ -54,8 +54,8 @@
 }
 
 .icon {
-    width: 4.7rem;
-    height: 4.7rem;
+    width: 4vw;
+    height: 4vw;
     object-fit: contain;
 }
 

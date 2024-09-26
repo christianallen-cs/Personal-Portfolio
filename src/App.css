@@ -47,8 +47,8 @@ body, html {
 
 .nav-links li {
     color: #ffb13a;
-    font-size: 1.7rem;
-    letter-spacing: 0.25rem;
+    font-size: 1.5vw;
+    letter-spacing: 0.15vw;
     cursor: pointer;
     padding: 0 5vw;
     margin-top: 1rem;
@@ -71,16 +71,16 @@ body, html {
 }
 
 .intro-page h1 {
-    font-size: 5rem;
-    letter-spacing: 0.10rem;
+    font-size: 5vw;
+    letter-spacing: 0.10vw;
     font-family: "starjhol", serif;
     margin-top: -10rem;
 }
 
 .intro-page h2 {
-    font-size: 2rem;
+    font-size: 2vw;
     font-family: "starjedi", serif;
-    letter-spacing: 0.10rem;
+    letter-spacing: 0.10vw;
 }
 
 section {
