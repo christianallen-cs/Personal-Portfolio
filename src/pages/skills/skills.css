@@ -17,12 +17,12 @@
 }
 
 .skills-category h1 {
-    font-size: 5vw;
+    font-size: 4.5vw;
     font-family: starjhol, serif;
 }
 
 .skills-category h2, .tools-category h2 {
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family: starjedi, serif;
     letter-spacing: 0.1rem;
     padding: 0.6rem 0 2.5rem;

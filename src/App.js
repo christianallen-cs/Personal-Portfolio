@@ -34,7 +34,7 @@ function App() {
                 </nav>
 
                 <section className="intro-page">
-                    <h1>i'm Christian allen</h1>
+                    <h1>Christian allen</h1>
                     <h2>aspiring Software Engineer</h2>
                 </section>
 
