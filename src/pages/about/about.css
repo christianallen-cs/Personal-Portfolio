@@ -4,32 +4,26 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding: 0 5vw;
+    padding: 0 8vw;
     color: #ffb13a;
-}
-
-.about-page h1,
-.about-page h2 {
-    text-align: justify;
-    max-width: 65rem;
-    margin-bottom: 1rem;
-    letter-spacing: 0.1rem;
-    word-spacing: -0.1rem;
-    hyphens: auto;
 }
 
 .about-page h1 {
     font-size: 4.5vw;
     font-family: starjhol, serif;
-
+    margin-top: 2rem;
+    margin-bottom: auto;
 }
 
 .about-page h2 {
     font-size: 1vw;
+    max-width: 70rem;
+    text-align: justify;
     line-height: 2.5rem;
     letter-spacing: 0.1rem;
     font-family: starjedi, serif;
-    padding: 1rem;
+    margin-top: -10rem;
+    margin-bottom: auto;
 }
 
 @media (max-width: 768px) {
@@ -41,6 +35,6 @@
     .about-page h2 {
         font-size: 3vw;
         line-height: 5vw;
-        word-spacing: -0.2em;
+        word-spacing: -0.3em;
     }
 }
