@@ -24,6 +24,7 @@
     font-family: starjedi, serif;
     margin-top: -10rem;
     margin-bottom: auto;
+    hyphens: auto;
 }
 
 @media (max-width: 768px) {
