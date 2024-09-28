@@ -58,10 +58,10 @@
 }
 
 .card-img-bottom {
-    height: 1.8vw;
-    width: 3.5vw;
+    height: 2vw;
+    width: 2vw;
     padding: 0;
-    margin-bottom: -10px;
+    margin-bottom: -15px;
     margin-left: 1.5rem;
 }
 
@@ -124,7 +124,8 @@
 
     .card-img-bottom {
         height: 6vw;
-        width: 9vw;
+        width: 6vw;
         margin-left: 8px;
+        margin-bottom: -10px;
     }
 }
