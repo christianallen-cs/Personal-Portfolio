@@ -71,7 +71,8 @@ body, html {
 }
 
 .intro-page h1 {
-    font-size: 5vw;
+    font-size: 4.2vw;
+    max-width: 65rem;
     letter-spacing: 0.10vw;
     font-family: "starjhol", serif;
     margin-top: -10rem;
@@ -79,6 +80,7 @@ body, html {
 
 .intro-page h2 {
     font-size: 2vw;
+    max-width: 65rem;
     font-family: "starjedi", serif;
     letter-spacing: 0.10vw;
 }
