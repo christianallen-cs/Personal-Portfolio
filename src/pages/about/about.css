@@ -4,14 +4,14 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding: 0 10vw;
+    padding: 0 5vw;
     color: #ffb13a;
 }
 
 .about-page h1,
 .about-page h2 {
     text-align: justify;
-    max-width: 60rem;
+    max-width: 65rem;
     margin-bottom: 1rem;
     letter-spacing: 0.1rem;
     word-spacing: -0.1rem;
@@ -26,7 +26,7 @@
 
 .about-page h2 {
     font-size: 1vw;
-    line-height: 2rem;
+    line-height: 2.5rem;
     letter-spacing: 0.1rem;
     font-family: starjedi, serif;
     padding: 1rem;
@@ -40,6 +40,7 @@
 
     .about-page h2 {
         font-size: 3vw;
-        line-height: 4vw;
+        line-height: 5vw;
+        word-spacing: -0.2em;
     }
 }
