@@ -5,25 +5,18 @@ const About = () => {
     return (
         <div className="about-page">
             <h1>
-                my Story
+                About Me
             </h1>
             <h2>
-                Thank you for taking the time to check out my personal website. i created this with react,
-                javascript, and good old css. i am always looking for constructive feedback, so if you notice anything
-                that could be improved or if the viewing experience is not optimal on your device, let me know!
+                Thank you for visiting my personal website! i built this using React, JavaScript, and CSS.
+                i'm always open to feedback, so feel free to reach out if you spot any areas for improvement.
             </h2>
             <h2>
-                i was introduced to computers from an early age, specifically computer gaming. As i grew up playing
-                video games, i started to tinker with various components of my pc to gain more fps and maximize
-                my computer's performance. i learned about overclocking my gpu, undervolting my cpu and even messing
-                with the windows registry to remove unnecessary bloatware. one thing led to another, and eventually, i
-                graduated high school with no idea what i wanted to do in life.. but what 18-year-old does yano?
-            </h2>
-            <h2>
-                i then went to my local community college and worked on my associate's degree while taking various
-                electives in an attempt to dial in on what i truly wanted. i found computer science and from there,
-                the rest is history. i have now received my bachelor's degree and am looking to find my first
-                professional software engineering role where i can make an impact by pursuing my passion.
+                My interest in computers started with gaming, which led me to tinker with my PC to boost performances.
+                From overclocking my gpu to tweaking the Windows registry, i dove into the tech world early on. After
+                earning an associate’s degree at my local community college, i discovered my passion for computer
+                science. now, with a bachelor’s degree, i’m excited to start my career in software engineering and
+                make a meaningful impact.
             </h2>
         </div>
     )
