@@ -47,7 +47,7 @@ body, html {
 
 .nav-links li {
     color: #ffb13a;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     letter-spacing: 0.15vw;
     cursor: pointer;
     padding: 0 5vw;
@@ -111,7 +111,7 @@ section {
 
 @media (max-width: 768px) {
     .nav-links li {
-        font-size: 4vw;
+        font-size: 3vw;
     }
 
     .intro-page h1 {

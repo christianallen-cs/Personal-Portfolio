@@ -27,9 +27,9 @@ function App() {
             <main>
                 <nav className="navbar">
                     <ul className="nav-links">
-                        <li onClick={() => scrollToSection(about)}>About</li>
-                        <li onClick={() => scrollToSection(skills)}>Skills</li>
-                        <li onClick={() => scrollToSection(projects)}>Projects</li>
+                        <li onClick={() => scrollToSection(about)}>About Me</li>
+                        <li onClick={() => scrollToSection(skills)}>My Skills</li>
+                        <li onClick={() => scrollToSection(projects)}>My Projects</li>
                     </ul>
                 </nav>
 
