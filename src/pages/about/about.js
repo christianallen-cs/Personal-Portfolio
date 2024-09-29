@@ -8,14 +8,14 @@ const About = () => {
                 About Me
             </h1>
             <h2>
-                Thank you for visiting my personal website! i built this using React, JavaScript, and CSS.
-                i'm always open to feedback, so feel free to reach out if you spot any areas for improvement.
+                Thank you for visiting my personal website. I built this using React, JavaScript, and CSS.
+                I'm always open to feedback, so feel free to reach out if you spot any areas for improvement.
             </h2>
             <h2>
-                My interest in computers started with gaming, which led me to tinker with my PC to boost performances.
-                From overclocking my gpu to tweaking the Windows registry, i dove into the tech world early on. After
-                earning an associate’s degree at my local community college, i discovered my passion for computer
-                science. now, with a bachelor’s degree, i’m excited to start my career in software engineering and
+                My interest in computers started with gaming, which led me to tinker with my PC to boost performance.
+                From overclocking my gpu to tweaking the Windows registry, I dove into the tech world early on. After
+                earning an Associate’s Degree at my local community college, I discovered my passion for computer
+                science. Now, with a Bachelor’s Degree, I’m excited to start my career in software engineering and
                 make a meaningful impact.
             </h2>
         </div>
