@@ -112,20 +112,20 @@
     }
 
     .card-body .card-title {
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 
     .card-body .card-text {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     .card-body .btn {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     .card-img-bottom {
-        height: 6vw;
-        width: 6vw;
+        height: 7vw;
+        width: 7vw;
         margin-left: 8px;
         margin-bottom: -10px;
     }
