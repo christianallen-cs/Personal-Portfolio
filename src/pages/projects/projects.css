@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: starjedi, serif;
+    font-family: "Segoe UI", serif;
 }
 
 .section {
@@ -76,12 +76,13 @@
 }
 
 .card-body .card-title {
-    font-size: 1vw;
+    font-family: starjedi, serif;
+    font-size: 1.10vw;
     margin-bottom: 0.5rem;
 }
 
 .card-body .card-text {
-    font-size: 0.6vw;
+    font-size: 0.8vw;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
 }

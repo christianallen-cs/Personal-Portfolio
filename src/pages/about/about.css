@@ -16,12 +16,12 @@
 }
 
 .about-page h2 {
-    font-size: 1vw;
-    max-width: 70rem;
+    font-size: 1.5vw;
+    max-width: 65rem;
     text-align: justify;
     line-height: 2.5rem;
     letter-spacing: 0.1rem;
-    font-family: starjedi, serif;
+    font-family: "Segoe UI", serif;
     margin-top: -10rem;
     margin-bottom: auto;
     hyphens: auto;
@@ -36,6 +36,6 @@
     .about-page h2 {
         font-size: 3vw;
         line-height: 5vw;
-        word-spacing: -0.3em;
+        word-spacing: -0.1em;
     }
 }
