@@ -36,18 +36,18 @@
 }
 
 .card {
-    border: 1px solid rgb(58, 58, 58);
+    border: 1px solid #ffb13a;
     border-radius: 10px;
     max-width: 100%;
     overflow: hidden;
-    background: radial-gradient(circle at 30% 30%, #3d3d3d, #1a1a1a);
-    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.6);
+    background: radial-gradient(circle at 30% 30%, #1c1c1c, #2e2e2e);
+    box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.6), 0 0 1rem rgba(255, 177, 58, 0.6);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .card:hover {
     transform: translateY(-0.3rem);
-    box-shadow: 0 0 1.2rem rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.8), 0 0 1.5rem rgba(255, 177, 58, 0.8);
 }
 
 .card-img-top {
