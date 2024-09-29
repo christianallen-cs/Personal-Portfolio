@@ -75,7 +75,7 @@ function Projects() {
                                                 className="btn btn-primary"
                                             >
                                                 Repository
-                                                <i className="fas fa-chevron-right"></i>
+                                                <i className="fas fa-link"></i>
                                             </a>
                                             <Card.Img variant="bottom" src={blog.icon}></Card.Img>
                                             <Card.Img variant="bottom" src={blog.icon2}></Card.Img>
