@@ -35,7 +35,7 @@
 .skills-list, .tools-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 2.5rem;
+    gap: 3rem;
     justify-content: center;
 }
 
@@ -61,8 +61,27 @@
 
 .floating-icon:hover {
     box-shadow: 0 0 1rem rgba(255, 255, 255, 0.8), 0 0 1.5rem rgba(255, 177, 58, 0.8);
-    transform: translateY(-1.25rem);
+    transform: translateY(-0.75rem);
     background: radial-gradient(circle at 30% 30%, #4d4d4d, #2a2a2a);
+}
+
+.icon-name {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: white;
+    padding: 0;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    pointer-events: none;
+}
+
+.floating-icon:hover .icon-name {
+    opacity: 1;
 }
 
 @media (max-width: 768px) {
@@ -83,5 +102,10 @@
     .icon {
         width: 8vw;
         height: 8vw;
+    }
+
+    .floating-icon .icon-name {
+        top: -20px;
+        font-size: 2.5vw;
     }
 }
