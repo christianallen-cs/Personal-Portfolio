@@ -25,17 +25,17 @@
     font-size: 1.5vw;
     font-family: starjedi, serif;
     letter-spacing: 0.1rem;
-    padding: 0.6rem 0 2.5rem;
+    padding: 0.5rem 0 2.5rem;
 }
 
 .tools-category h2 {
-    padding-top: 2.5rem;
+    padding-top: 3rem;
 }
 
 .skills-list, .tools-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 4rem;
+    gap: 3.5rem;
     justify-content: center;
 }
 
@@ -91,6 +91,10 @@
 
     .skills-category h2, .tools-category h2 {
         font-size: 3vw;
+    }
+
+    .skills-list, .tools-list {
+        gap: 3rem;
     }
 
     .floating-icon {
