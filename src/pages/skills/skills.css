@@ -35,7 +35,7 @@
 .skills-list, .tools-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 4rem;
     justify-content: center;
 }
 

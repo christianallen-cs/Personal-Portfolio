@@ -3,7 +3,6 @@ import './skills.css'
 
 const languages = [
     {id: 2, src: '/icons/css.png', alt: 'CSS'},
-    {id: 1, src: '/icons/cpp.png', alt: 'C++'},
     {id: 3, src: '/icons/html.png', alt: 'HTML'},
     {id: 5, src: '/icons/java.png', alt: 'Java'},
     {id: 6, src: '/icons/javascript.png', alt: 'JavaScript'},
@@ -18,7 +17,6 @@ const tools = [
     {id: 2, src: '/icons/git.png', alt: 'Git'},
     {id: 8, src: '/icons/mysql.png', alt: 'MySQL'},
     {id: 3, src: '/icons/nodejs.png', alt: 'NodeJS'},
-    {id: 7, src: '/icons/postgres.png', alt: 'PostgreSQL'},
     {id: 4, src: '/icons/reactjs.png', alt: 'ReactJS'},
     {id: 5, src: '/icons/springboot.png', alt: 'Spring Boot'},
 ]
