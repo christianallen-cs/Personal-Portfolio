@@ -17,11 +17,11 @@
 
 .about-page h2 {
     font-size: 1.5vw;
-    max-width: 65rem;
+    max-width: 55rem;
     text-align: justify;
-    line-height: 2.5rem;
+    line-height: 3rem;
     letter-spacing: 0.1rem;
-    font-family: "Segoe UI", serif;
+    font-family: "Franklin Gothic", serif;
     margin-top: -10rem;
     margin-bottom: auto;
     hyphens: auto;
